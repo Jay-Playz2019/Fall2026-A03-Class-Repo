@@ -1,0 +1,36 @@
+@page "/access-denied"
+
+@* Reached by REDIRECT, not by routing: the cookie handler sends a signed-in-but-denied
+   user here because Program.cs set options.AccessDeniedPath = "/access-denied".
+
+   This page must NOT carry [Authorize]. It is the page shown when authorization has
+   already said no, so requiring authorization to view it would loop. *@
+
+<PageTitle>Access Denied</PageTitle>
+
+<h1>Access Denied</h1>
+
+<div class="alert alert-danger">
+    <p>You are signed in, but your account does not have permission to view that page.</p>
+</div>
+
+<AuthorizeView>
+    <Authorized>
+        <p>
+            Signed in as <strong>@context.User.Identity?.Name</strong>.
+        </p>
+        @* Printing the roles turns "it just said no" into something a student can
+           diagnose: compare this list against the [Authorize(Roles = "...")] on the
+           page that refused you. An EMPTY list here is the RoleClaimType bug from
+           earlier today -- the roles arrived, but the app was not told to read them. *@
+        <p>Roles carried by this identity:</p>
+        <ul>
+            @foreach (var role in context.User.FindAll(context.User.Identities.First().RoleClaimType))
+            {
+                <li><code>@role.Value</code></li>
+            }
+        </ul>
+    </Authorized>
+</AuthorizeView>
+
+<a href="/">Return to the home page</a>

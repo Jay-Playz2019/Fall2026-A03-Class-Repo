@@ -1,0 +1,47 @@
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">Day 16 Demo</a>
+    </div>
+</div>
+
+<nav class="flex-column">
+    <div class="nav-item px-3 py-2">
+        <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            Home
+        </NavLink>
+    </div>
+    <div class="nav-item px-3 py-2">
+        <NavLink class="nav-link" href="dashboard">
+            Staff Dashboard
+        </NavLink>
+    </div>
+    <div class="nav-item px-3 py-2">
+        <NavLink class="nav-link" href="orders">
+            Order Management
+        </NavLink>
+    </div>
+    <div class="nav-item px-3 py-2">
+        <NavLink class="nav-link" href="products">
+            Products
+        </NavLink>
+    </div>
+    <div class="nav-item px-3 py-2">
+        <NavLink class="nav-link" href="about">
+            About
+        </NavLink>
+    </div>
+
+    <hr class="mx-3 my-2" />
+
+    <div class="nav-item px-3 py-2">
+        <AuthorizeView>
+            <Authorized>
+                <span class="nav-link text-light">Hello, @context.User.Identity?.Name</span>
+                <a class="nav-link" href="/Account/Logout">Logout</a>
+            </Authorized>
+            <NotAuthorized>
+                <a class="nav-link" href="/Account/Login">Login</a>
+            </NotAuthorized>
+        </AuthorizeView>
+    </div>
+</nav>

@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+option csharp_namespace = "CampusStore.Protos";
+
+package campusstore;
+
+// OrderStatus: a fixed set of named values
+enum OrderStatus {
+    // Same proto3 rule the demo's ProductCategory followed: the first value must
+    // be 0; by convention it means unset (ORDER_STATUS_UNSPECIFIED). A missing
+    // enum field reads back as 0, so a real status should never take the 0 slot.
+    ORDER_STATUS_UNSPECIFIED = 0;
+    PENDING = 1;
+    PROCESSING = 2;
+    SHIPPED = 3;
+    DELIVERED = 4;
+    CANCELLED = 5;
+}
+
+// The OrderItem message: one data shape, like a C# class
+message OrderItem {
+    // Field numbers (= 1, = 2 …) are the wire identity — unique within a message,
+    // and never reused or renumbered once the contract ships.
+    int32 product_id = 1;
+    string product_name = 2;
+    int32 quantity = 3;
+    double unit_price = 4;
+}
+
+// The Order message: one data shape, like a C# class
+message Order {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    int32 order_id = 1;
+    string customer_name = 2;
+    string order_date = 3;
+    double total_amount = 4;
+    // Holds one OrderStatus value
+    OrderStatus status = 5;
+    repeated OrderItem items = 6;     // repeated = the line-items collection (zero or more)
+}
+
+// One request + one response message per operation. Wrapping even a single id in a
+// message (instead of passing a bare int) is what lets you add fields later without
+// breaking the RPC signature.
+message GetOrderRequest {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    int32 order_id = 1;
+}
+
+// Output from the GetOrder call
+message GetOrderResponse {
+    // A whole Order message nested inside this one
+    Order order = 1;
+}
+
+// Input for the CreateOrder call
+message CreateOrderRequest {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    string customer_name = 1;
+    // repeated: a list of OrderItem (zero or more)
+    repeated OrderItem items = 2;
+}
+
+// Output from the CreateOrder call
+message CreateOrderResponse {
+    // A whole Order message nested inside this one
+    Order order = 1;
+}

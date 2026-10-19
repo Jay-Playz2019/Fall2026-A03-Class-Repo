@@ -1,0 +1,21 @@
+@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Campus Store</h1>
+
+<AuthorizeView>
+    <Authorized>
+        <div class="alert alert-success">
+            Welcome back, <strong>@context.User.Identity?.Name</strong>!
+            <a href="/dashboard" class="alert-link">Go to Staff Dashboard</a>
+        </div>
+    </Authorized>
+    <NotAuthorized>
+        <div class="alert alert-info">
+            <a href="/Account/Login" class="alert-link">Log in</a> to access staff tools.
+        </div>
+    </NotAuthorized>
+</AuthorizeView>
+
+<p>Use the navigation menu to explore the different areas of the application.</p>

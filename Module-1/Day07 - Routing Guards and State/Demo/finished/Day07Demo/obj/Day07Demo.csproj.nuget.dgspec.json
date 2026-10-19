@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 01\\Day 07\\demo\\finished\\Day07Demo\\Day07Demo.csproj": {}
+    "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-1\\Day07 - Routing Guards and State\\Demo\\finished\\Day07Demo\\Day07Demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 01\\Day 07\\demo\\finished\\Day07Demo\\Day07Demo.csproj": {
+    "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-1\\Day07 - Routing Guards and State\\Demo\\finished\\Day07Demo\\Day07Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 01\\Day 07\\demo\\finished\\Day07Demo\\Day07Demo.csproj",
+        "projectUniqueName": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-1\\Day07 - Routing Guards and State\\Demo\\finished\\Day07Demo\\Day07Demo.csproj",
         "projectName": "Day07Demo",
-        "projectPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 01\\Day 07\\demo\\finished\\Day07Demo\\Day07Demo.csproj",
+        "projectPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-1\\Day07 - Routing Guards and State\\Demo\\finished\\Day07Demo\\Day07Demo.csproj",
         "packagesPath": "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 01\\Day 07\\demo\\finished\\Day07Demo\\obj\\",
+        "outputPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-1\\Day07 - Routing Guards and State\\Demo\\finished\\Day07Demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

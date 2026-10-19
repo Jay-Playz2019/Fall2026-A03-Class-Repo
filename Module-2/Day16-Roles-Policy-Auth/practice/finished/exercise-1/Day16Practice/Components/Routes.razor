@@ -1,0 +1,32 @@
+<CascadingAuthenticationState>
+    <Router AppAssembly="typeof(Program).Assembly">
+        <Found Context="routeData">
+            @* AuthorizeRouteView, NOT the plain RouteView: it's the variant that honours
+               [Authorize] on a page and renders the Authorizing template below while the
+               auth state is still resolving.
+
+               There is deliberately NO <NotAuthorized> template here, and on the day about
+               authorization outcomes that absence is worth explaining.
+
+               Since .NET 8, [Authorize] on a routable component is ALSO endpoint metadata.
+               These pages are statically rendered (see App.razor), so every navigation is a
+               real HTTP request and authorization is settled in the pipeline BEFORE any
+               component renders. Both outcomes are handled there, by the cookie handler:
+
+                 not signed in     -> challenge -> 302 to the provider
+                 signed in, denied -> forbid    -> 302 to AccessDeniedPath ("/access-denied")
+
+               A <NotAuthorized> template here would compile, and never run. It belongs to
+               the CLIENT-SIDE router -- it is what fires when an interactive app routes
+               without a round-trip to the server. Ours does not. Read Program.cs and
+               AccessDenied.razor for the path that actually executes. *@
+            <AuthorizeRouteView RouteData="routeData"
+                                DefaultLayout="typeof(Layout.MainLayout)">
+                <Authorizing>
+                    <p class="m-3">Checking authorization...</p>
+                </Authorizing>
+            </AuthorizeRouteView>
+            <FocusOnNavigate RouteData="routeData" Selector="h1" />
+        </Found>
+    </Router>
+</CascadingAuthenticationState>

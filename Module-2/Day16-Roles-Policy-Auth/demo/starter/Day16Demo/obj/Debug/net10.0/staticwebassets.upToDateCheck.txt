@@ -1,0 +1,6 @@
+wwwroot\app.css
+C:\Users\jkarpiak.NAIT\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\build\..\_framework\blazor.web.js
+C:\Users\jkarpiak.NAIT\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\build\..\_framework\blazor.server.js
+C:\Users\jkarpiak.NAIT\OneDrive - NAIT\Documents\Courses\2026\Fall\SDEV2351\A03\Fall2026-A03-Class-Repo\Module-2\Day16-Roles-Policy-Auth\demo\starter\Day16Demo\wwwroot\app.css
+C:\Users\jkarpiak.NAIT\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\_framework\blazor.web.js
+C:\Users\jkarpiak.NAIT\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\_framework\blazor.server.js

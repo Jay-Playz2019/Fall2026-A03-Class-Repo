@@ -1,0 +1,57 @@
+@page "/dashboard"
+@* Page-level ROLE gate: only Admin OR Manager may load /dashboard — the comma means OR,
+   not AND. This is Day-14's [Authorize] (which only required sign-in) made selective: still
+   authenticated, now also role-checked. It only works because RoleClaimType is mapped in
+   Program.cs; without that mapping the framework sees no roles and denies everyone. *@
+@attribute [Authorize(Roles = "Admin,Manager")]
+
+<PageTitle>Staff Dashboard</PageTitle>
+
+<h1>Staff Dashboard</h1>
+
+<AuthorizeView>
+    <Authorized>
+        <p>Logged in as: <strong>@context.User.FindFirst("email")?.Value</strong></p>
+    </Authorized>
+</AuthorizeView>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Orders Today</h5>
+                <p class="card-text display-4">42</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Low Stock Items</h5>
+                <p class="card-text display-4">7</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Revenue</h5>
+                <p class="card-text display-4">$3,450</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Element-level ROLE gate: a Manager passes the page attribute above but NOT this block —
+   only Admins see Admin Controls. Same <AuthorizeView> component as Day-13/14, now with
+   Roles= to filter by role instead of merely authenticated-vs-anonymous. Use this to vary
+   what one page shows by role (Day-14's "don't lock a whole page when only part is admin"). *@
+<AuthorizeView Roles="Admin">
+    <Authorized>
+        <hr />
+        <h2>Admin Controls</h2>
+        <p>These controls are only visible to users with the Admin role.</p>
+        <button class="btn btn-danger">Reset Daily Stats</button>
+        <button class="btn btn-warning">Export Reports</button>
+    </Authorized>
+</AuthorizeView>

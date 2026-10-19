@@ -1,0 +1,49 @@
+@page "/dashboard"
+@attribute [Authorize]
+
+<PageTitle>Staff Dashboard</PageTitle>
+
+<h1>Staff Dashboard</h1>
+
+<AuthorizeView>
+    <Authorized>
+        <p>Logged in as: <strong>@context.User.FindFirst("email")?.Value</strong></p>
+    </Authorized>
+</AuthorizeView>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Orders Today</h5>
+                <p class="card-text display-4">42</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Low Stock Items</h5>
+                <p class="card-text display-4">7</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Revenue</h5>
+                <p class="card-text display-4">$3,450</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<AuthorizeView Roles="Admin">
+    <Authorized>
+        <hr />
+        <h2>Admin Controls</h2>
+        <p>These controls are only visible to users with the Admin role.</p>
+        <button class="btn btn-danger">Reset Daily Stats</button>
+        <button class="btn btn-warning">Export Reports</button>
+    </Authorized>
+</AuthorizeView>

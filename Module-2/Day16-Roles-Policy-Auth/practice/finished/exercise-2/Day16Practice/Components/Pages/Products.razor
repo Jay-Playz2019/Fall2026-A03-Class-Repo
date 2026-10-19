@@ -1,0 +1,43 @@
+@page "/products"
+@* Policy gate: the page references only the policy name; the requirement + handler behind
+   "CanManageInventory" live in Auth/ and Program.cs. Use a policy when the rule is more than
+   a role (here: a department claim). *@
+@attribute [Authorize(Policy = "CanManageInventory")]
+
+<PageTitle>Products</PageTitle>
+
+<h1>Products</h1>
+
+<p>Inventory management -- only accessible to users in the Inventory department.</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>NAIT Hoodie</td>
+            <td>$49.99</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Campus Mug</td>
+            <td>$14.99</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Notebook Set</td>
+            <td>$8.99</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>NAIT Lanyard</td>
+            <td>$5.99</td>
+            <td>200</td>
+        </tr>
+    </tbody>
+</table>

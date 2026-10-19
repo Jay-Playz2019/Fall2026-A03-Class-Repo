@@ -1,0 +1,37 @@
+@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Campus Store</h1>
+
+@* Content inside shows only to users with the Admin role *@
+<AuthorizeView Roles="Admin">
+    <Authorized>
+        <div class="alert alert-warning">
+            <strong>Admin:</strong> <a href="/dashboard">Dashboard</a> |
+            <a href="/orders">Orders</a> | <a href="/products">Products</a>
+        </div>
+    </Authorized>
+</AuthorizeView>
+
+@* Content inside shows only to users with the Manager role *@
+<AuthorizeView Roles="Manager">
+    <Authorized>
+        <div class="alert alert-info">
+            <strong>Manager:</strong> <a href="/orders">Orders</a>
+        </div>
+    </Authorized>
+</AuthorizeView>
+
+<AuthorizeView>
+    <Authorized>
+        <p>Welcome back, <strong>@context.User.Identity?.Name</strong>!</p>
+    </Authorized>
+    <NotAuthorized>
+        <div class="alert alert-secondary">
+            <a href="/Account/Login" class="alert-link">Log in</a> to access staff tools.
+        </div>
+    </NotAuthorized>
+</AuthorizeView>
+
+<p>Use the navigation menu to explore the different areas of the application.</p>
