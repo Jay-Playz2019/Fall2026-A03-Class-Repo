@@ -1,0 +1,68 @@
+@page "/dashboard"
+@* Role gate: comma = OR (Admin or Manager). Needs RoleClaimType mapped in Program.cs, or
+   the framework sees no roles and denies everyone. *@
+@attribute [Authorize(Roles = "Admin,Manager")]
+
+<PageTitle>Staff Dashboard</PageTitle>
+
+<h1>Staff Dashboard</h1>
+
+<AuthorizeView>
+    <Authorized>
+        <p>Logged in as: <strong>@context.User.FindFirst("email")?.Value</strong></p>
+    </Authorized>
+</AuthorizeView>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Orders Today</h5>
+                <p class="card-text display-4">42</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Low Stock Items</h5>
+                <p class="card-text display-4">7</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Revenue</h5>
+                <p class="card-text display-4">$3,450</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Element-level role gate — a Manager loads the page but only Admins see this block. *@
+<AuthorizeView Roles="Admin">
+    <Authorized>
+        <hr />
+        <h2>Admin Controls</h2>
+        <p>These controls are only visible to users with the Admin role.</p>
+        <button class="btn btn-danger">Reset Daily Stats</button>
+        <button class="btn btn-warning">Export Reports</button>
+    </Authorized>
+</AuthorizeView>
+
+@* Stretch: element-level POLICY gate (vs the Roles= block above). Same policy resolution
+   as a page [Authorize(Policy=...)], but hides a block instead of blocking the route —
+   the CanViewReports handler grants Admin OR Analytics-department staff. *@
+<AuthorizeView Policy="CanViewReports">
+    <Authorized>
+        <hr />
+        <h2>Reports</h2>
+        <p>Accessible to Admin users and Analytics department staff.</p>
+        <ul>
+            <li>Monthly Sales Report</li>
+            <li>Inventory Turnover Report</li>
+            <li>Customer Analytics Report</li>
+        </ul>
+    </Authorized>
+</AuthorizeView>

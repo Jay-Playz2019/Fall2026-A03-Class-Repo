@@ -1,0 +1,45 @@
+@page "/products"
+@* POLICY gate instead of a role gate. The page names only the policy; the framework
+   resolves policy → DepartmentRequirement → DepartmentHandler (all wired in Program.cs).
+   Reach for a policy when the rule is more than a role name — here, "is in the Inventory
+   department," read from a claim. Roles answer "who are you?"; policies answer arbitrary
+   "are you allowed to?" questions. *@
+@attribute [Authorize(Policy = "CanManageInventory")]
+
+<PageTitle>Products</PageTitle>
+
+<h1>Products</h1>
+
+<p>Inventory management -- only accessible to users in the Inventory department.</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>NAIT Hoodie</td>
+            <td>$49.99</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Campus Mug</td>
+            <td>$14.99</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Notebook Set</td>
+            <td>$8.99</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>NAIT Lanyard</td>
+            <td>$5.99</td>
+            <td>200</td>
+        </tr>
+    </tbody>
+</table>

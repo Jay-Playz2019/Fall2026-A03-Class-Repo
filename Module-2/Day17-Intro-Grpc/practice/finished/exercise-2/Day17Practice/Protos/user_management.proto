@@ -1,0 +1,119 @@
+syntax = "proto3";
+
+option csharp_namespace = "CampusStore.Protos";
+
+package campusstore;
+
+// UserRole: a fixed set of named values
+enum UserRole {
+    // The first value must be 0, and by convention it means "not set"
+    USER_ROLE_UNSPECIFIED = 0;
+    VIEWER = 1;
+    EDITOR = 2;
+    ADMIN = 3;
+}
+
+// The User message: one data shape, like a C# class
+message User {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    int32 id = 1;
+    string email = 2;
+    string display_name = 3;
+    // Holds one UserRole value
+    UserRole role = 4;
+    string created_at = 5;
+}
+
+// Input for the GetUser call
+message GetUserRequest {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    int32 id = 1;
+}
+
+// Output from the GetUser call
+message GetUserResponse {
+    // A whole User message nested inside this one
+    User user = 1;
+}
+
+// Input for the ListUsers call
+message ListUsersRequest {
+    // Holds one UserRole value
+    UserRole role_filter = 1;
+    // Pagination is NOT in the Practice-2 requirements — it is carried over from the
+    // demo's ListProducts. Designing it in now is what avoids a breaking change later;
+    // your solution is correct without these two fields.
+    int32 page_size = 2;
+    string page_token = 3;
+}
+
+// Output from the ListUsers call
+message ListUsersResponse {
+    // repeated: a list of User (zero or more)
+    repeated User users = 1;
+    string next_page_token = 2;
+}
+
+// Input for the CreateUser call
+message CreateUserRequest {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    string email = 1;
+    string display_name = 2;
+    // Holds one UserRole value
+    UserRole role = 3;
+}
+
+// Output from the CreateUser call
+message CreateUserResponse {
+    // A whole User message nested inside this one
+    User user = 1;
+}
+
+// Input for the UpdateUserRole call
+message UpdateUserRoleRequest {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    int32 id = 1;
+    // Holds one UserRole value
+    UserRole new_role = 2;
+}
+
+// Output from the UpdateUserRole call
+message UpdateUserRoleResponse {
+    // A whole User message nested inside this one
+    User user = 1;
+}
+
+// The service is the contract seam: you defined the message shapes above, and the
+// service names the operations that move them. Design the messages first, then the
+// RPCs — contract-first, the same order the demo built ProductCatalog.
+service UserManagement {
+    // Unary call: one GetUserRequest in, one GetUserResponse back
+    rpc GetUser (GetUserRequest) returns (GetUserResponse);
+    // Unary call: one ListUsersRequest in, one ListUsersResponse back
+    rpc ListUsers (ListUsersRequest) returns (ListUsersResponse);
+    // Unary call: one CreateUserRequest in, one CreateUserResponse back
+    rpc CreateUser (CreateUserRequest) returns (CreateUserResponse);
+    // A narrow, explicit RPC for the one mutation — gRPC favours a named operation
+    // (UpdateUserRole) over a general-purpose Update with optional fields, so the
+    // contract states exactly what is allowed to change.
+    rpc UpdateUserRole (UpdateUserRoleRequest) returns (UpdateUserRoleResponse);
+
+    // --- Stretch (optional) --- not required by Practice 2.
+    // Server streaming: `stream` on the RETURN means the server pushes many
+    // UserActivityEvent messages over one open call. Implementation lands Day 22.
+    rpc WatchUserActivity (WatchUserActivityRequest) returns (stream UserActivityEvent);
+}
+
+// --- Stretch (optional) --- the two messages the RPC above needs.
+message WatchUserActivityRequest {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    int32 user_id = 1;
+}
+
+// The UserActivityEvent message: one data shape, like a C# class
+message UserActivityEvent {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    int32 user_id = 1;
+    string action = 2;
+    string timestamp = 3;
+}

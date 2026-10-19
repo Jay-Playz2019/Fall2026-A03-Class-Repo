@@ -1,0 +1,107 @@
+// proto3 is the contract language — the modern dialect where every field has a
+// typed zero-value when it is not set (no proto2 `required` fields; proto3 still
+// has an `optional` keyword for when you need to know whether a field was set).
+// This one .proto file is the single source of truth both the client and the
+// server generate code from: contract-first, before any C# exists.
+syntax = "proto3";
+
+// Where the generated C# types land (Day 19 runs the codegen). Without this the
+// namespace is derived from the package name; we set it explicitly so the
+// generated classes live in a namespace we chose.
+option csharp_namespace = "CampusStore.Protos";
+
+// package = the proto-level namespace. It keeps names from colliding (two .proto
+// files could each define a "Product") and forms part of the gRPC method path
+// (/campusstore.ProductCatalog/GetProduct). Field names never go on the wire.
+package campusstore;
+
+// A product in the campus store catalog
+message Product {
+    // The number after each field (= 1, = 2 …) is the field's WIRE IDENTITY, not
+    // its name. The serialized bytes carry the number, never the name — so you can
+    // rename `name` freely, but you must NEVER reuse or renumber a field once the
+    // contract has shipped, or old and new peers disagree about what byte is what.
+    // Numbers 1–15 encode in a single byte; reserve them for your hottest fields.
+    int32 id = 1;
+    string name = 2;
+    string description = 3;
+    double price = 4;
+    int32 stock_quantity = 5;     // snake_case here → StockQuantity in generated C#
+    // Holds one ProductCategory value
+    ProductCategory category = 6;
+}
+
+// ProductCategory: a fixed set of named values
+enum ProductCategory {
+    // proto3 requires the first enum value to be 0, and the convention is that 0
+    // means "unset". A missing or zeroed enum field deserializes to this value, so
+    // a real category can never be 0 — that's why every enum starts with *_UNSPECIFIED.
+    PRODUCT_CATEGORY_UNSPECIFIED = 0;
+    ELECTRONICS = 1;
+    BOOKS = 2;
+    SUPPLIES = 3;
+    CLOTHING = 4;
+}
+
+// Request/response messages — one dedicated message per RPC. Even GetProduct,
+// which only needs an id, gets its own GetProductRequest: wrapping the argument in
+// a message means we can add fields later (a filter, a flag) without changing the
+// RPC signature, so already-deployed clients keep working.
+message GetProductRequest {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    int32 id = 1;
+}
+
+// Output from the GetProduct call
+message GetProductResponse {
+    // A whole Product message nested inside this one
+    Product product = 1;
+}
+
+// Input for the ListProducts call
+message ListProductsRequest {
+    // Holds one ProductCategory value
+    ProductCategory category = 1;
+    // Pagination is designed into the contract up front: ask for page_size items,
+    // then send back the page_token you were handed to fetch the next slice.
+    // Building it in now avoids a breaking change when the catalog outgrows one response.
+    int32 page_size = 2;
+    string page_token = 3;
+}
+
+// Output from the ListProducts call
+message ListProductsResponse {
+    repeated Product products = 1;     // repeated = a list/collection (zero or more items)
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    string next_page_token = 2;
+}
+
+// gRPC service definition — THIS is the contract seam. It names the operations and
+// their exact message shapes before a single line of server or client code exists.
+// Day 19 generates C# stubs from it; the implementation comes later.
+service ProductCatalog {
+    // Unary: one request, one response — the everyday RPC shape, like a method call.
+    rpc GetProduct (GetProductRequest) returns (GetProductResponse);
+
+    // Unary: list with pagination
+    rpc ListProducts (ListProductsRequest) returns (ListProductsResponse);
+
+    // Server streaming: `stream` on the RETURN means the server pushes many
+    // InventoryUpdate messages over one open call — the right shape for live
+    // inventory. The implementation lands Day 22; here we just commit to the contract.
+    rpc WatchInventory (WatchInventoryRequest) returns (stream InventoryUpdate);
+}
+
+// Input for the WatchInventory call
+message WatchInventoryRequest {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    int32 product_id = 1;
+}
+
+// The InventoryUpdate message: one data shape, like a C# class
+message InventoryUpdate {
+    // Type, name, field number. The number, not the name, identifies the field on the wire
+    int32 product_id = 1;
+    int32 new_quantity = 2;
+    string timestamp = 3;
+}

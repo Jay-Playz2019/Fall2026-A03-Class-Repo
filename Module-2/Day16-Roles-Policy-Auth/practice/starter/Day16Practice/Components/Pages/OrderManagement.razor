@@ -1,0 +1,23 @@
+@page "/orders"
+@attribute [Authorize]
+
+<PageTitle>Order Management</PageTitle>
+
+<h1>Order Management</h1>
+
+<AuthorizeView>
+    <Authorized>
+        <p>Managing orders as: <strong>@context.User.FindFirst("email")?.Value</strong></p>
+    </Authorized>
+</AuthorizeView>
+
+<table class="table table-striped">
+    <thead>
+        <tr><th>Order #</th><th>Customer</th><th>Total</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>1001</td><td>Jane Smith</td><td>$129.99</td><td>Shipped</td></tr>
+        <tr><td>1002</td><td>Bob Johnson</td><td>$49.50</td><td>Processing</td></tr>
+        <tr><td>1003</td><td>Alice Brown</td><td>$299.00</td><td>Delivered</td></tr>
+    </tbody>
+</table>

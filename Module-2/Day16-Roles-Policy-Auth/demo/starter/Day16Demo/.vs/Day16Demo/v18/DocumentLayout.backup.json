@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\a03\\fall2026-a03-class-repo\\module-2\\day16-roles-policy-auth\\demo\\starter\\day16demo\\components\\pages\\staffdashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|solutionrelative:components\\pages\\staffdashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\a03\\fall2026-a03-class-repo\\module-2\\day16-roles-policy-auth\\demo\\starter\\day16demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\a03\\fall2026-a03-class-repo\\module-2\\day16-roles-policy-auth\\demo\\starter\\day16demo\\components\\auth\\departmentrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|solutionrelative:components\\auth\\departmentrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\a03\\fall2026-a03-class-repo\\module-2\\day16-roles-policy-auth\\demo\\starter\\day16demo\\components\\auth\\departmenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|solutionrelative:components\\auth\\departmenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\a03\\fall2026-a03-class-repo\\module-2\\day16-roles-policy-auth\\demo\\starter\\day16demo\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|solutionrelative:components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\a03\\fall2026-a03-class-repo\\module-2\\day16-roles-policy-auth\\demo\\starter\\day16demo\\components\\pages\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|solutionrelative:components\\pages\\accessdenied.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jkarpiak.NAIT\\AppData\\Roaming\\Microsoft\\UserSecrets\\a7187c7f-5966-4a75-8e27-5c9464858e83\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\a03\\fall2026-a03-class-repo\\module-2\\day16-roles-policy-auth\\demo\\starter\\day16demo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C65450A-5986-4C51-90B5-C8DE6F468051}|Day16Demo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Products.razor",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Components\\Pages\\Products.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Products.razor",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Components\\Pages\\Products.razor",
+              "RelativeToolTip": "Components\\Pages\\Products.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-09T17:11:50.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentHandler.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Components\\Auth\\DepartmentHandler.cs",
+              "RelativeDocumentMoniker": "Components\\Auth\\DepartmentHandler.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Components\\Auth\\DepartmentHandler.cs",
+              "RelativeToolTip": "Components\\Auth\\DepartmentHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T17:00:45.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentRequirement.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Components\\Auth\\DepartmentRequirement.cs",
+              "RelativeDocumentMoniker": "Components\\Auth\\DepartmentRequirement.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Components\\Auth\\DepartmentRequirement.cs",
+              "RelativeToolTip": "Components\\Auth\\DepartmentRequirement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T16:42:28.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccessDenied.razor",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Components\\Pages\\AccessDenied.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AccessDenied.razor",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Components\\Pages\\AccessDenied.razor",
+              "RelativeToolTip": "Components\\Pages\\AccessDenied.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-09T16:26:43.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaffDashboard.razor",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Components\\Pages\\StaffDashboard.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\StaffDashboard.razor",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Components\\Pages\\StaffDashboard.razor",
+              "RelativeToolTip": "Components\\Pages\\StaffDashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-09T15:58:11.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T14:22:13.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\AppData\\Roaming\\Microsoft\\UserSecrets\\a7187c7f-5966-4a75-8e27-5c9464858e83\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\a7187c7f-5966-4a75-8e27-5c9464858e83\\secrets.json",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\AppData\\Roaming\\Microsoft\\UserSecrets\\a7187c7f-5966-4a75-8e27-5c9464858e83\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\a7187c7f-5966-4a75-8e27-5c9464858e83\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-09T14:35:54.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\demo\\starter\\Day16Demo\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-09T14:35:32.784Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

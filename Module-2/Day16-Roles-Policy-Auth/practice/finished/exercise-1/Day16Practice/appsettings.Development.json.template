@@ -1,0 +1,5 @@
+{
+  "Oidc": {
+    "ClientSecret": "YOUR_CLIENT_SECRET_HERE"
+  }
+}

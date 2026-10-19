@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B0J3Y0eSTug=",
+  "dgSpecHash": "kIqJdpQA4XQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 01\\Day 08\\demo\\finished\\Day08Demo\\Day08Demo.csproj",
+  "projectFilePath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-1\\Day08 - Local Storage\\demo\\finished\\Day08Demo\\Day08Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\bysresults\\1.2.3\\bysresults.1.2.3.nupkg.sha512",

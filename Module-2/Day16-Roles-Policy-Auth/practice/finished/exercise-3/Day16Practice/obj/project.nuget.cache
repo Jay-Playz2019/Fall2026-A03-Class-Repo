@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "raJG1BMl9v8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\A03\\Fall2026-A03-Class-Repo\\Module-2\\Day16-Roles-Policy-Auth\\practice\\finished\\exercise-3\\Day16Practice\\Day16Practice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.12\\microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\10.0.11\\microsoft.aspnetcore.authentication.openidconnect.10.0.11.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\microsoft.bcl.cryptography\\10.0.2\\microsoft.bcl.cryptography.10.0.2.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.19.2\\microsoft.identitymodel.abstractions.8.19.2.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.19.2\\microsoft.identitymodel.jsonwebtokens.8.19.2.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\microsoft.identitymodel.logging\\8.19.2\\microsoft.identitymodel.logging.8.19.2.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.19.2\\microsoft.identitymodel.protocols.8.19.2.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.19.2\\microsoft.identitymodel.protocols.openidconnect.8.19.2.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.19.2\\microsoft.identitymodel.tokens.8.19.2.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.19.2\\system.identitymodel.tokens.jwt.8.19.2.nupkg.sha512"
+  ],
+  "logs": []
+}
