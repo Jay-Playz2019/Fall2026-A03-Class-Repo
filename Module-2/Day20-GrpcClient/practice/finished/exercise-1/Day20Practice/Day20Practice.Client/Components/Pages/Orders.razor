@@ -1,0 +1,40 @@
+@page "/orders"
+@rendermode RenderMode.InteractiveServer
+
+<PageTitle>Orders</PageTitle>
+
+<h3>Orders</h3>
+
+@* Practice 1: Order list *@
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+else if (OrderList.Count == 0)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Customer</th>
+                <th>Status</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in OrderList)
+            {
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@order.CustomerName</td>
+                    <td>@order.Status</td>
+                    <td>@order.TotalAmount.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

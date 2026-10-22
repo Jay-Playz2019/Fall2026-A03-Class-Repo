@@ -1,0 +1,77 @@
+@page "/orders"
+@rendermode RenderMode.InteractiveServer
+
+<PageTitle>Orders</PageTitle>
+
+<h3>Orders</h3>
+
+@* Practice 1: Order list *@
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+else if (OrderList.Count == 0)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Customer</th>
+                <th>Status</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in OrderList)
+            {
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@order.CustomerName</td>
+                    <td>@order.Status</td>
+                    <td>@order.TotalAmount.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@* Practice 2: Search by ID *@
+<hr />
+<h4>Search Order by ID</h4>
+<div class="row mb-3">
+    <div class="col-auto">
+        <input type="number" class="form-control" @bind="SearchId" placeholder="Order ID" />
+    </div>
+    <div class="col-auto">
+        <button class="btn btn-primary" @onclick="SearchOrder">Search</button>
+    </div>
+</div>
+
+@if (SearchError is not null)
+{
+    <div class="alert alert-warning">@SearchError</div>
+}
+
+@if (FoundOrder is not null)
+{
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Order #@FoundOrder.OrderId</h5>
+            <p><strong>Customer:</strong> @FoundOrder.CustomerName</p>
+            <p><strong>Date:</strong> @FoundOrder.OrderDate</p>
+            <p><strong>Status:</strong> @FoundOrder.Status</p>
+            <p><strong>Total:</strong> @FoundOrder.TotalAmount.ToString("C")</p>
+            <h6>Items:</h6>
+            <ul>
+                @foreach (var item in FoundOrder.Items)
+                {
+                    <li>@item.ProductName (x@(item.Quantity)) -- @item.UnitPrice.ToString("C")</li>
+                }
+            </ul>
+        </div>
+    </div>
+}

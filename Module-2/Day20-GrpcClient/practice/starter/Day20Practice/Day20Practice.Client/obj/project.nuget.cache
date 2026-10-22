@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ymRjdSr/PBI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 20\\practice\\starter\\Day20Practice\\Day20Practice.Client\\Day20Practice.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\google.protobuf\\3.29.3\\google.protobuf.3.29.3.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\grpc.core.api\\2.70.0\\grpc.core.api.2.70.0.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\grpc.net.client\\2.70.0\\grpc.net.client.2.70.0.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\grpc.net.clientfactory\\2.70.0\\grpc.net.clientfactory.2.70.0.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\grpc.net.common\\2.70.0\\grpc.net.common.2.70.0.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\grpc.tools\\2.70.0\\grpc.tools.2.70.0.nupkg.sha512",
+    "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.12\\microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

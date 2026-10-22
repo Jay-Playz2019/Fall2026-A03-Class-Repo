@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 19\\demo\\finished\\Day19Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DDCED3-F2CD-4A89-8043-F1DB81994624}|Day19Demo.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 19\\demo\\finished\\day19demo\\protos\\product.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E3DDCED3-F2CD-4A89-8043-F1DB81994624}|Day19Demo.csproj|solutionrelative:protos\\product.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3DDCED3-F2CD-4A89-8043-F1DB81994624}|Day19Demo.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 19\\demo\\finished\\day19demo\\day19demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3DDCED3-F2CD-4A89-8043-F1DB81994624}|Day19Demo.csproj|solutionrelative:day19demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "product.proto",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 19\\demo\\finished\\Day19Demo\\Protos\\product.proto",
+              "RelativeDocumentMoniker": "Protos\\product.proto",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 19\\demo\\finished\\Day19Demo\\Protos\\product.proto",
+              "RelativeToolTip": "Protos\\product.proto",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-10-15T14:42:19.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Day19Demo",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 19\\demo\\finished\\Day19Demo\\Day19Demo.csproj",
+              "RelativeDocumentMoniker": "Day19Demo.csproj",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 19\\demo\\finished\\Day19Demo\\Day19Demo.csproj",
+              "RelativeToolTip": "Day19Demo.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-14T20:28:49.937Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

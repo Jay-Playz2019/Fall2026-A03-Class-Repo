@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Grpc.AspNetCore is the one server package: it pulls in the runtime (Grpc.Core), the
+         serializer (Google.Protobuf), AND Grpc.Tools — the build-time code generator. -->
+    <PackageReference Include="Grpc.AspNetCore" Version="2.70.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- THE build-time codegen trigger. On every build, Grpc.Tools reads product.proto and
+         generates the message classes + the ProductCatalogBase you inherit, dropping them in
+         obj/ (never edit those — they're regenerated each build, so edits vanish silently).
+         GrpcServices="Server" emits only the server base, no client stub, since this is the server. -->
+    <Protobuf Include="Protos\product.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+</Project>
