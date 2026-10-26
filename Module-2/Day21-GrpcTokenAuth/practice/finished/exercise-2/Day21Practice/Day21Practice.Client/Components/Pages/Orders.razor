@@ -1,0 +1,46 @@
+@page "/orders"
+@rendermode RenderMode.InteractiveServer
+
+<PageTitle>Orders</PageTitle>
+
+<h3>Orders</h3>
+
+@* PRE-BUILT test buttons (do not edit). Each one makes a single call so you can see how
+   the server's auth rules treat that RPC: GetOrder needs any valid token; CreateOrder
+   becomes admin-only in Practice 3. The result appears in the box below the buttons. *@
+<div class="mb-3">
+    <button class="btn btn-outline-primary me-2" @onclick="GetOrderOneAsync">Get Order #1</button>
+    <button class="btn btn-outline-primary" @onclick="CreateTestOrderAsync">Create Test Order</button>
+</div>
+@if (CallResult is not null)
+{
+    <div class="alert alert-secondary">@CallResult</div>
+}
+
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+else if (OrderList.Count == 0)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr><th>ID</th><th>Customer</th><th>Status</th><th>Total</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var order in OrderList)
+            {
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@order.CustomerName</td>
+                    <td>@order.Status</td>
+                    <td>@order.TotalAmount.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

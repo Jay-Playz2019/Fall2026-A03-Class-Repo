@@ -1,0 +1,45 @@
+@page "/products"
+@rendermode RenderMode.InteractiveServer
+
+<PageTitle>Products</PageTitle>
+
+<h3>Products</h3>
+
+@* PRE-BUILT test button (do not edit). Calls GetProduct for product 1. It is guarded only by the
+   class-level [Authorize], so any valid token succeeds -- even after ListProducts becomes
+   admin-only. The server console logs the caller's name on each call. *@
+<div class="mb-3">
+    <button class="btn btn-outline-primary" @onclick="GetProductOneAsync">Get Product #1</button>
+</div>
+@if (CallResult is not null)
+{
+    <div class="alert alert-secondary">@CallResult</div>
+}
+
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+else if (ProductList.Count == 0)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr><th>ID</th><th>Name</th><th>Price</th><th>Category</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var product in ProductList)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Price.ToString("C")</td>
+                    <td>@product.Category</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
