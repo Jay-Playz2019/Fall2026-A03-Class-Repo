@@ -1,0 +1,2 @@
+obj\Release\net10.0/Product.cs \
+obj\Release\net10.0/ProductGrpc.cs: ../Day20Demo.Server/Protos/product.proto

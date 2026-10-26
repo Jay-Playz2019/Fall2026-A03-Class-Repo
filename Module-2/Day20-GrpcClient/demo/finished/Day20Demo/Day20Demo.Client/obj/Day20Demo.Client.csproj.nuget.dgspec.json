@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 20\\demo\\finished\\Day20Demo\\Day20Demo.Client\\Day20Demo.Client.csproj": {}
+    "C:\\Users\\Jayde\\source\\repos\\2351-Workbook\\Module-2\\Day20-GrpcClient\\demo\\finished\\Day20Demo\\Day20Demo.Client\\Day20Demo.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 20\\demo\\finished\\Day20Demo\\Day20Demo.Client\\Day20Demo.Client.csproj": {
+    "C:\\Users\\Jayde\\source\\repos\\2351-Workbook\\Module-2\\Day20-GrpcClient\\demo\\finished\\Day20Demo\\Day20Demo.Client\\Day20Demo.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 20\\demo\\finished\\Day20Demo\\Day20Demo.Client\\Day20Demo.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Jayde\\source\\repos\\2351-Workbook\\Module-2\\Day20-GrpcClient\\demo\\finished\\Day20Demo\\Day20Demo.Client\\Day20Demo.Client.csproj",
         "projectName": "Day20Demo.Client",
-        "projectPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 20\\demo\\finished\\Day20Demo\\Day20Demo.Client\\Day20Demo.Client.csproj",
-        "packagesPath": "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 20\\demo\\finished\\Day20Demo\\Day20Demo.Client\\obj\\",
+        "projectPath": "C:\\Users\\Jayde\\source\\repos\\2351-Workbook\\Module-2\\Day20-GrpcClient\\demo\\finished\\Day20Demo\\Day20Demo.Client\\Day20Demo.Client.csproj",
+        "packagesPath": "C:\\Users\\Jayde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jayde\\source\\repos\\2351-Workbook\\Module-2\\Day20-GrpcClient\\demo\\finished\\Day20Demo\\Day20Demo.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jkarpiak.NAIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jayde\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

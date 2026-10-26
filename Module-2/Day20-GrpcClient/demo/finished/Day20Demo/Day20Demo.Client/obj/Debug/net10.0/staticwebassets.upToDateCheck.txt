@@ -1,0 +1,6 @@
+wwwroot\app.css
+C:\Users\Jayde\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\build\..\_framework\blazor.web.js
+C:\Users\Jayde\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\build\..\_framework\blazor.server.js
+C:\Users\Jayde\source\repos\2351-Workbook\Module-2\Day20-GrpcClient\demo\finished\Day20Demo\Day20Demo.Client\wwwroot\app.css
+C:\Users\Jayde\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\_framework\blazor.web.js
+C:\Users\Jayde\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.12\_framework\blazor.server.js
