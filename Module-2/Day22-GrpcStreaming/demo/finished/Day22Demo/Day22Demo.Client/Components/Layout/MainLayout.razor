@@ -1,0 +1,19 @@
+@inherits LayoutComponentBase
+
+<div class="container mt-4">
+    <header class="mb-4">
+        <h1>Day 22 Demo -- gRPC Streaming</h1>
+        <nav>
+            @* py-1 makes each link at least 24px tall, so links that wrap onto
+               a second line on a narrow screen stay easy to tap (WCAG 2.5.8). *@
+            <a href="/" class="me-3 py-1 d-inline-block">Home</a>
+            <a href="/products" class="me-3 py-1 d-inline-block">Products (Unary)</a>
+            <a href="/product-stream" class="me-3 py-1 d-inline-block">Stream Products</a>
+            <a href="/batch-add" class="me-3 py-1 d-inline-block">Batch Add</a>
+        </nav>
+        <hr />
+    </header>
+    <main>
+        @Body
+    </main>
+</div>

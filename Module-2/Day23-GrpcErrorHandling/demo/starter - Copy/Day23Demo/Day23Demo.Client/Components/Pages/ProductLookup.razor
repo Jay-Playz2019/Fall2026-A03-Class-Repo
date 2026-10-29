@@ -1,0 +1,37 @@
+@page "/product-lookup"
+@* Interactive server render mode is required for @onclick + @bind to wire up.
+   See Shared-Resources/Reference-Materials/blazor-gotchas.md Section 1.1. *@
+@rendermode RenderMode.InteractiveServer
+
+<PageTitle>Product Lookup</PageTitle>
+
+<h3>Product Lookup</h3>
+
+<div class="mb-3">
+    <label for="productId" class="form-label">Product ID:</label>
+    <div class="input-group" style="max-width: 300px;">
+        <input type="number" class="form-control" id="productId" @bind="ProductId" />
+        <button class="btn btn-primary" @onclick="LookupProduct" disabled="@IsLoading">
+            @(IsLoading ? "Looking up..." : "Look Up")
+        </button>
+    </div>
+</div>
+
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+
+@if (SelectedProduct is not null)
+{
+    <div class="card" style="max-width: 400px;">
+        <div class="card-body">
+            <h5 class="card-title">@SelectedProduct.Name</h5>
+            <p class="card-text">
+                <strong>ID:</strong> @SelectedProduct.Id<br />
+                <strong>Price:</strong> @SelectedProduct.Price.ToString("C")<br />
+                <strong>Category:</strong> @SelectedProduct.Category
+            </p>
+        </div>
+    </div>
+}

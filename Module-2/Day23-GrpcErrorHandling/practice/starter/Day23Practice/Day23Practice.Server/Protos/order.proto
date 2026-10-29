@@ -1,0 +1,55 @@
+syntax = "proto3";
+option csharp_namespace = "CampusStore.Protos";
+package campusstore;
+
+enum OrderStatus {
+    ORDER_STATUS_UNSPECIFIED = 0;
+    PENDING = 1;
+    PROCESSING = 2;
+    SHIPPED = 3;
+    DELIVERED = 4;
+    CANCELLED = 5;
+}
+
+message OrderItem {
+    int32 product_id = 1;
+    string product_name = 2;
+    int32 quantity = 3;
+    double unit_price = 4;
+}
+
+message Order {
+    int32 order_id = 1;
+    string customer_name = 2;
+    string order_date = 3;
+    double total_amount = 4;
+    OrderStatus status = 5;
+    repeated OrderItem items = 6;
+}
+
+message GetOrderRequest { int32 order_id = 1; }
+message GetOrderResponse { Order order = 1; }
+message CreateOrderRequest {
+    string customer_name = 1;
+    repeated OrderItem items = 2;
+}
+message CreateOrderResponse { Order order = 1; }
+message ListOrdersRequest { OrderStatus status_filter = 1; }
+message ListOrdersResponse { repeated Order orders = 1; }
+
+message StreamOrdersRequest {
+    OrderStatus status_filter = 1;
+}
+
+message BatchCreateOrdersResponse {
+    int32 orders_created = 1;
+    double total_amount = 2;
+}
+
+service OrderManagement {
+    rpc GetOrder (GetOrderRequest) returns (GetOrderResponse);
+    rpc ListOrders (ListOrdersRequest) returns (ListOrdersResponse);
+    rpc CreateOrder (CreateOrderRequest) returns (CreateOrderResponse);
+    rpc StreamOrders (StreamOrdersRequest) returns (stream Order);
+    rpc BatchCreateOrders (stream CreateOrderRequest) returns (BatchCreateOrdersResponse);
+}

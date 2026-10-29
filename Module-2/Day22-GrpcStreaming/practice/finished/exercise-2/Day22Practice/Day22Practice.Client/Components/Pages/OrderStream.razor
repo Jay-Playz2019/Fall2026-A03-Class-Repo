@@ -1,0 +1,39 @@
+@page "/order-stream"
+@* Interactive server render mode is required for @onclick handlers to wire up.
+   See Shared-Resources/Reference-Materials/blazor-gotchas.md Section 1.1. *@
+@rendermode RenderMode.InteractiveServer
+
+<PageTitle>Order Stream</PageTitle>
+
+<h3>Order Stream (Server Streaming)</h3>
+
+<button class="btn btn-primary mb-3" @onclick="LoadStreamAsync" disabled="@IsStreaming">
+    @(IsStreaming ? "Streaming..." : "Stream Orders")
+</button>
+
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+
+<table class="table">
+    <thead>
+        <tr><th>ID</th><th>Customer</th><th>Status</th><th>Total</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var order in OrderList)
+        {
+            <tr>
+                <td>@order.OrderId</td>
+                <td>@order.CustomerName</td>
+                <td>@order.Status</td>
+                <td>@order.TotalAmount.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (IsStreaming)
+{
+    <p class="text-muted">Receiving orders...</p>
+}

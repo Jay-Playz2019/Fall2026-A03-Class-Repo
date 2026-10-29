@@ -1,0 +1,41 @@
+@page "/batch-add"
+@* Interactive server render mode is required for @onclick handlers to wire up.
+   See Shared-Resources/Reference-Materials/blazor-gotchas.md Section 1.1. *@
+@rendermode RenderMode.InteractiveServer
+
+<PageTitle>Batch Add</PageTitle>
+
+<h3>Batch Add Products (Client Streaming)</h3>
+
+<p>Click the button to send 3 products to the server via client streaming.</p>
+
+<button class="btn btn-success mb-3" @onclick="BatchAddAsync" disabled="@IsSending">
+    @(IsSending ? "Sending..." : "Batch Add Products")
+</button>
+
+@if (!string.IsNullOrEmpty(StatusMessage))
+{
+    <div class="alert alert-info" role="status">@StatusMessage</div>
+}
+
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+
+<h5>Products to Send:</h5>
+<table class="table">
+    <thead>
+        <tr><th>Name</th><th>Price</th><th>Category</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var p in NewProducts)
+        {
+            <tr>
+                <td>@p.Name</td>
+                <td>@p.Price.ToString("C")</td>
+                <td>@p.Category</td>
+            </tr>
+        }
+    </tbody>
+</table>

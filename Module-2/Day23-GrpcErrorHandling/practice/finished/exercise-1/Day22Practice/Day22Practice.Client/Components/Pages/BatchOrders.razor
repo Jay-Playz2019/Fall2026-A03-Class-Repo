@@ -1,0 +1,41 @@
+@page "/batch-orders"
+@* Interactive server render mode is required for @onclick handlers to wire up.
+   See Shared-Resources/Reference-Materials/blazor-gotchas.md Section 1.1. *@
+@rendermode RenderMode.InteractiveServer
+
+<PageTitle>Batch Orders</PageTitle>
+
+<h3>Batch Create Orders (Client Streaming)</h3>
+
+<p>Click the button to send 3 orders to the server via client streaming.</p>
+
+<button class="btn btn-success mb-3" @onclick="BatchCreateAsync" disabled="@IsSending">
+    @(IsSending ? "Sending..." : "Batch Create Orders")
+</button>
+
+@if (!string.IsNullOrEmpty(StatusMessage))
+{
+    <div class="alert alert-info" role="status">@StatusMessage</div>
+}
+
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+
+<h5>Orders to Send:</h5>
+<table class="table">
+    <thead>
+        <tr><th>Customer</th><th>Items</th><th>Total</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var order in NewOrders)
+        {
+            <tr>
+                <td>@order.CustomerName</td>
+                <td>@order.Items.Count item(s)</td>
+                <td>@order.Items.Sum(i => i.Quantity * i.UnitPrice).ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>

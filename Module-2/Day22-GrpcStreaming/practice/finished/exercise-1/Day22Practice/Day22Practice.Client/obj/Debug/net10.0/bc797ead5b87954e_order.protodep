@@ -1,0 +1,2 @@
+obj\Debug\net10.0/Order.cs \
+obj\Debug\net10.0/OrderGrpc.cs: ../Day22Practice.Server/Protos/order.proto
