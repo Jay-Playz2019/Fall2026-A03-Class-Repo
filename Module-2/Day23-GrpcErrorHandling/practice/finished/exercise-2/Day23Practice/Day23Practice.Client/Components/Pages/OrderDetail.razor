@@ -1,0 +1,48 @@
+@page "/order-detail"
+@* Interactive server render mode is required for @onclick + @bind to wire up.
+   See Shared-Resources/Reference-Materials/blazor-gotchas.md Section 1.1. *@
+@rendermode RenderMode.InteractiveServer
+
+<PageTitle>Order Detail</PageTitle>
+
+<h3>Order Detail</h3>
+
+<div class="mb-3">
+    <label for="orderId" class="form-label">Order ID:</label>
+    <div class="input-group" style="max-width: 300px;">
+        <input type="number" class="form-control" id="orderId" @bind="OrderId" />
+        <button class="btn btn-primary" @onclick="LookupOrder" disabled="@IsLoading">
+            @(IsLoading ? "Looking up..." : "Look Up")
+        </button>
+    </div>
+</div>
+
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+
+@if (SelectedOrder is not null)
+{
+    <div class="card" style="max-width: 500px;">
+        <div class="card-body">
+            <h5 class="card-title">Order #@SelectedOrder.OrderId</h5>
+            <p class="card-text">
+                <strong>Customer:</strong> @SelectedOrder.CustomerName<br />
+                <strong>Date:</strong> @SelectedOrder.OrderDate<br />
+                <strong>Status:</strong> @SelectedOrder.Status<br />
+                <strong>Total:</strong> @SelectedOrder.TotalAmount.ToString("C")
+            </p>
+            @if (SelectedOrder.Items.Count > 0)
+            {
+                <h6>Items:</h6>
+                <ul>
+                    @foreach (var item in SelectedOrder.Items)
+                    {
+                        <li>@item.ProductName (x@(item.Quantity)) -- @item.UnitPrice.ToString("C")</li>
+                    }
+                </ul>
+            }
+        </div>
+    </div>
+}

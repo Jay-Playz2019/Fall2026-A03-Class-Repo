@@ -1,0 +1,39 @@
+@page "/product-stream"
+@* Interactive server render mode is required for @onclick handlers to wire up.
+   See Shared-Resources/Reference-Materials/blazor-gotchas.md Section 1.1. *@
+@rendermode RenderMode.InteractiveServer
+
+<PageTitle>Product Stream</PageTitle>
+
+<h3>Product Stream (Server Streaming)</h3>
+
+<button class="btn btn-primary mb-3" @onclick="LoadStreamAsync" disabled="@IsStreaming">
+    @(IsStreaming ? "Streaming..." : "Stream Products")
+</button>
+
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+
+<table class="table">
+    <thead>
+        <tr><th>ID</th><th>Name</th><th>Price</th><th>Category</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var product in ProductList)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price.ToString("C")</td>
+                <td>@product.Category</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (IsStreaming)
+{
+    <p class="text-muted">Receiving products...</p>
+}

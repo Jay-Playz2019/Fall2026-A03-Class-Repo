@@ -1,0 +1,34 @@
+@page "/products"
+
+<PageTitle>Products</PageTitle>
+
+<h3>Products</h3>
+
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+
+@if (IsLoading)
+{
+    <p>Loading...</p>
+}
+else if (ProductList.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr><th>ID</th><th>Name</th><th>Price</th><th>Category</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var product in ProductList)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Price.ToString("C")</td>
+                    <td>@product.Category</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

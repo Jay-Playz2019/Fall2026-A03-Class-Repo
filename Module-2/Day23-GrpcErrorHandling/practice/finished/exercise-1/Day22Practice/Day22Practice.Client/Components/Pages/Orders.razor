@@ -1,0 +1,33 @@
+@page "/orders"
+
+<PageTitle>Orders</PageTitle>
+
+<h3>Orders (Unary RPC)</h3>
+
+@if (ErrorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@ErrorMessage</div>
+}
+else if (OrderList.Count == 0)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr><th>ID</th><th>Customer</th><th>Status</th><th>Total</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var order in OrderList)
+            {
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@order.CustomerName</td>
+                    <td>@order.Status</td>
+                    <td>@order.TotalAmount.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

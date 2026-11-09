@@ -1,0 +1,56 @@
+syntax = "proto3";
+option csharp_namespace = "CampusStore.Protos";
+package campusstore;
+
+message Product {
+    int32 id = 1;
+    string name = 2;
+    string description = 3;
+    double price = 4;
+    int32 stock_quantity = 5;
+    ProductCategory category = 6;
+}
+
+enum ProductCategory {
+    PRODUCT_CATEGORY_UNSPECIFIED = 0;
+    ELECTRONICS = 1;
+    BOOKS = 2;
+    SUPPLIES = 3;
+    CLOTHING = 4;
+}
+
+message GetProductRequest { int32 id = 1; }
+message GetProductResponse { Product product = 1; }
+message ListProductsRequest {
+    ProductCategory category = 1;
+    int32 page_size = 2;
+    string page_token = 3;
+}
+message ListProductsResponse {
+    repeated Product products = 1;
+    string next_page_token = 2;
+}
+
+// Day 22: Streaming messages
+message StreamProductsRequest {
+    ProductCategory category = 1;
+}
+
+message AddProductRequest {
+    string name = 1;
+    string description = 2;
+    double price = 3;
+    ProductCategory category = 4;
+}
+
+message BatchAddProductsResponse {
+    int32 products_added = 1;
+}
+
+service ProductCatalog {
+    rpc GetProduct (GetProductRequest) returns (GetProductResponse);
+    rpc ListProducts (ListProductsRequest) returns (ListProductsResponse);
+    // Day 22: Streaming RPCs
+    rpc StreamProducts (StreamProductsRequest) returns (stream Product);
+    rpc BatchAddProducts (stream AddProductRequest) returns (BatchAddProductsResponse);
+}

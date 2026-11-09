@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A050A1-4411-4B8C-9808-2E0019C37B79}|Day23Demo.Server\\Day23Demo.Server.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\completed prep\\sdev2351\\course-repo\\sdev2351\\sdev2351_sourcecode\\day-23\\demo\\starter\\day23demo\\day23demo.server\\services\\productcatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A050A1-4411-4B8C-9808-2E0019C37B79}|Day23Demo.Server\\Day23Demo.Server.csproj|solutionrelative:day23demo.server\\services\\productcatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F884BFA-3ADB-4858-8B28-AD8D67443346}|Day23Demo.Client\\Day23Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\completed prep\\sdev2351\\course-repo\\sdev2351\\sdev2351_sourcecode\\day-23\\demo\\starter\\day23demo\\day23demo.client\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F884BFA-3ADB-4858-8B28-AD8D67443346}|Day23Demo.Client\\Day23Demo.Client.csproj|solutionrelative:day23demo.client\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A050A1-4411-4B8C-9808-2E0019C37B79}|Day23Demo.Server\\Day23Demo.Server.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\completed prep\\sdev2351\\course-repo\\sdev2351\\sdev2351_sourcecode\\day-23\\demo\\starter\\day23demo\\day23demo.server\\extensions\\bysresultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A050A1-4411-4B8C-9808-2E0019C37B79}|Day23Demo.Server\\Day23Demo.Server.csproj|solutionrelative:day23demo.server\\extensions\\bysresultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F884BFA-3ADB-4858-8B28-AD8D67443346}|Day23Demo.Client\\Day23Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\completed prep\\sdev2351\\course-repo\\sdev2351\\sdev2351_sourcecode\\day-23\\demo\\starter\\day23demo\\day23demo.client\\components\\pages\\products.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F884BFA-3ADB-4858-8B28-AD8D67443346}|Day23Demo.Client\\Day23Demo.Client.csproj|solutionrelative:day23demo.client\\components\\pages\\products.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F884BFA-3ADB-4858-8B28-AD8D67443346}|Day23Demo.Client\\Day23Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\completed prep\\sdev2351\\course-repo\\sdev2351\\sdev2351_sourcecode\\day-23\\demo\\starter\\day23demo\\day23demo.client\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F884BFA-3ADB-4858-8B28-AD8D67443346}|Day23Demo.Client\\Day23Demo.Client.csproj|solutionrelative:day23demo.client\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F884BFA-3ADB-4858-8B28-AD8D67443346}|Day23Demo.Client\\Day23Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\completed prep\\sdev2351\\course-repo\\sdev2351\\sdev2351_sourcecode\\day-23\\demo\\starter\\day23demo\\day23demo.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F884BFA-3ADB-4858-8B28-AD8D67443346}|Day23Demo.Client\\Day23Demo.Client.csproj|solutionrelative:day23demo.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A050A1-4411-4B8C-9808-2E0019C37B79}|Day23Demo.Server\\Day23Demo.Server.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\completed prep\\sdev2351\\course-repo\\sdev2351\\sdev2351_sourcecode\\day-23\\demo\\starter\\day23demo\\day23demo.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A050A1-4411-4B8C-9808-2E0019C37B79}|Day23Demo.Server\\Day23Demo.Server.csproj|solutionrelative:day23demo.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Client\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Day23Demo.Client\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Client\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Day23Demo.Client\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-27T21:06:07.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BYSResultExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Server\\Extensions\\BYSResultExtensions.cs",
+              "RelativeDocumentMoniker": "Day23Demo.Server\\Extensions\\BYSResultExtensions.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Server\\Extensions\\BYSResultExtensions.cs",
+              "RelativeToolTip": "Day23Demo.Server\\Extensions\\BYSResultExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T20:57:14.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductCatalogService.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Server\\Services\\ProductCatalogService.cs",
+              "RelativeDocumentMoniker": "Day23Demo.Server\\Services\\ProductCatalogService.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Server\\Services\\ProductCatalogService.cs",
+              "RelativeToolTip": "Day23Demo.Server\\Services\\ProductCatalogService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwEwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T20:57:12.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Products.razor.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Client\\Components\\Pages\\Products.razor.cs",
+              "RelativeDocumentMoniker": "Day23Demo.Client\\Components\\Pages\\Products.razor.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Client\\Components\\Pages\\Products.razor.cs",
+              "RelativeToolTip": "Day23Demo.Client\\Components\\Pages\\Products.razor.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T20:54:47.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Products.razor",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Client\\Components\\Pages\\Products.razor",
+              "RelativeDocumentMoniker": "Day23Demo.Client\\Components\\Pages\\Products.razor",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Client\\Components\\Pages\\Products.razor",
+              "RelativeToolTip": "Day23Demo.Client\\Components\\Pages\\Products.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-27T20:54:45.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Client\\Program.cs",
+              "RelativeDocumentMoniker": "Day23Demo.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Client\\Program.cs",
+              "RelativeToolTip": "Day23Demo.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T20:52:44.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Day23Demo.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\Completed Prep\\SDEV2351\\course-repo\\SDEV2351\\SDEV2351_SourceCode\\Day-23\\demo\\starter\\Day23Demo\\Day23Demo.Server\\Program.cs",
+              "RelativeToolTip": "Day23Demo.Server\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T20:52:35.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 22\\demo\\starter - copy\\day22demo\\day22demo.client\\components\\pages\\batchadd.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|solutionrelative:day22demo.client\\components\\pages\\batchadd.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 22\\demo\\starter - copy\\day22demo\\day22demo.client\\components\\pages\\batchadd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|solutionrelative:day22demo.client\\components\\pages\\batchadd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC70EB64-E632-48D5-88D9-DDB1C8F9B6E8}|Day22Demo.Server\\Day22Demo.Server.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 22\\demo\\starter - copy\\day22demo\\day22demo.server\\services\\productcatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC70EB64-E632-48D5-88D9-DDB1C8F9B6E8}|Day22Demo.Server\\Day22Demo.Server.csproj|solutionrelative:day22demo.server\\services\\productcatalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 22\\demo\\starter - copy\\day22demo\\day22demo.client\\components\\pages\\productstream.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|solutionrelative:day22demo.client\\components\\pages\\productstream.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Server\\obj\\Debug\\net10.0\\Protos\\ProductGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Day22Demo.Server\\obj\\Debug\\net10.0\\Protos\\ProductGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 22\\demo\\starter - copy\\day22demo\\day22demo.client\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|solutionrelative:day22demo.client\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 22\\demo\\starter - copy\\day22demo\\day22demo.client\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|solutionrelative:day22demo.client\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 22\\demo\\starter - copy\\day22demo\\day22demo.client\\components\\pages\\products.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|solutionrelative:day22demo.client\\components\\pages\\products.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 22\\demo\\starter - copy\\day22demo\\day22demo.client\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|solutionrelative:day22demo.client\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 22\\demo\\starter - copy\\day22demo\\day22demo.client\\components\\pages\\productstream.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08EC23F-E002-468D-8D07-927D6E56352D}|Day22Demo.Client\\Day22Demo.Client.csproj|solutionrelative:day22demo.client\\components\\pages\\productstream.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC70EB64-E632-48D5-88D9-DDB1C8F9B6E8}|Day22Demo.Server\\Day22Demo.Server.csproj|c:\\users\\jkarpiak.nait\\onedrive - nait\\documents\\courses\\2026\\fall\\sdev2351\\general\\lessons\\module 02\\day 22\\demo\\starter - copy\\day22demo\\day22demo.server\\protos\\product.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{DC70EB64-E632-48D5-88D9-DDB1C8F9B6E8}|Day22Demo.Server\\Day22Demo.Server.csproj|solutionrelative:day22demo.server\\protos\\product.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BatchAdd.razor.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\BatchAdd.razor.cs",
+              "RelativeDocumentMoniker": "Day22Demo.Client\\Components\\Pages\\BatchAdd.razor.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\BatchAdd.razor.cs",
+              "RelativeToolTip": "Day22Demo.Client\\Components\\Pages\\BatchAdd.razor.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T21:12:13.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductGrpc.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Server\\obj\\Debug\\net10.0\\Protos\\ProductGrpc.cs",
+              "RelativeDocumentMoniker": "Day22Demo.Server\\obj\\Debug\\net10.0\\Protos\\ProductGrpc.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Server\\obj\\Debug\\net10.0\\Protos\\ProductGrpc.cs",
+              "RelativeToolTip": "Day22Demo.Server\\obj\\Debug\\net10.0\\Protos\\ProductGrpc.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAiwIAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T18:23:49.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Day22Demo.Client\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Routes.razor",
+              "RelativeToolTip": "Day22Demo.Client\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-23T15:59:29.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Day22Demo.Client\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\App.razor",
+              "RelativeToolTip": "Day22Demo.Client\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-23T15:58:48.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductCatalogService.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Server\\Services\\ProductCatalogService.cs",
+              "RelativeDocumentMoniker": "Day22Demo.Server\\Services\\ProductCatalogService.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Server\\Services\\ProductCatalogService.cs",
+              "RelativeToolTip": "Day22Demo.Server\\Services\\ProductCatalogService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T15:55:16.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "product.proto",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Server\\Protos\\product.proto",
+              "RelativeDocumentMoniker": "Day22Demo.Server\\Protos\\product.proto",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Server\\Protos\\product.proto",
+              "RelativeToolTip": "Day22Demo.Server\\Protos\\product.proto",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-10-22T17:07:38.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BatchAdd.razor",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\BatchAdd.razor",
+              "RelativeDocumentMoniker": "Day22Demo.Client\\Components\\Pages\\BatchAdd.razor",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\BatchAdd.razor",
+              "RelativeToolTip": "Day22Demo.Client\\Components\\Pages\\BatchAdd.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T17:10:06.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductStream.razor.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\ProductStream.razor.cs",
+              "RelativeDocumentMoniker": "Day22Demo.Client\\Components\\Pages\\ProductStream.razor.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\ProductStream.razor.cs",
+              "RelativeToolTip": "Day22Demo.Client\\Components\\Pages\\ProductStream.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T17:09:54.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductStream.razor",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\ProductStream.razor",
+              "RelativeDocumentMoniker": "Day22Demo.Client\\Components\\Pages\\ProductStream.razor",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\ProductStream.razor",
+              "RelativeToolTip": "Day22Demo.Client\\Components\\Pages\\ProductStream.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T17:09:50.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Products.razor.cs",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\Products.razor.cs",
+              "RelativeDocumentMoniker": "Day22Demo.Client\\Components\\Pages\\Products.razor.cs",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\Products.razor.cs",
+              "RelativeToolTip": "Day22Demo.Client\\Components\\Pages\\Products.razor.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T17:06:35.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Products.razor",
+              "DocumentMoniker": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\Products.razor",
+              "RelativeDocumentMoniker": "Day22Demo.Client\\Components\\Pages\\Products.razor",
+              "ToolTip": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 22\\demo\\starter - Copy\\Day22Demo\\Day22Demo.Client\\Components\\Pages\\Products.razor",
+              "RelativeToolTip": "Day22Demo.Client\\Components\\Pages\\Products.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T17:06:21.89Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
