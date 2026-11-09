@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 21\\demo\\finished\\Day21Demo\\Day21Demo.Client\\Day21Demo.Client.csproj": {}
+    "C:\\Users\\Jayde\\source\\repos\\2351-Workbook\\Module-2\\Day21-GrpcTokenAuth\\demo\\finished\\Day21Demo\\Day21Demo.Client\\Day21Demo.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 21\\demo\\finished\\Day21Demo\\Day21Demo.Client\\Day21Demo.Client.csproj": {
+    "C:\\Users\\Jayde\\source\\repos\\2351-Workbook\\Module-2\\Day21-GrpcTokenAuth\\demo\\finished\\Day21Demo\\Day21Demo.Client\\Day21Demo.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 21\\demo\\finished\\Day21Demo\\Day21Demo.Client\\Day21Demo.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Jayde\\source\\repos\\2351-Workbook\\Module-2\\Day21-GrpcTokenAuth\\demo\\finished\\Day21Demo\\Day21Demo.Client\\Day21Demo.Client.csproj",
         "projectName": "Day21Demo.Client",
-        "projectPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 21\\demo\\finished\\Day21Demo\\Day21Demo.Client\\Day21Demo.Client.csproj",
-        "packagesPath": "C:\\Users\\jkarpiak.NAIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jkarpiak.NAIT\\OneDrive - NAIT\\Documents\\Courses\\2026\\Fall\\SDEV2351\\General\\Lessons\\Module 02\\Day 21\\demo\\finished\\Day21Demo\\Day21Demo.Client\\obj\\",
+        "projectPath": "C:\\Users\\Jayde\\source\\repos\\2351-Workbook\\Module-2\\Day21-GrpcTokenAuth\\demo\\finished\\Day21Demo\\Day21Demo.Client\\Day21Demo.Client.csproj",
+        "packagesPath": "C:\\Users\\Jayde\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jayde\\source\\repos\\2351-Workbook\\Module-2\\Day21-GrpcTokenAuth\\demo\\finished\\Day21Demo\\Day21Demo.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jkarpiak.NAIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jayde\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

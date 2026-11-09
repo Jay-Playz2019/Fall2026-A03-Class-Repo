@@ -1,0 +1,2 @@
+obj\Release\net10.0\Protos/Order.cs \
+obj\Release\net10.0\Protos/OrderGrpc.cs: Protos/order.proto
